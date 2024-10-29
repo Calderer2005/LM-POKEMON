@@ -7,6 +7,10 @@ header{
     background-color: red;
     padding: 5px;
 }
+nav{
+    display: flex;
+    justify-content: end;
+}
 .contenedor-imagen{
     background-color: red;
     display:flex;
@@ -16,15 +20,15 @@ img{
     max-width: 100%;
 }
 .fondo{
-    background:url();
+    background-image:url(img/fondu.jpg);
+    background-size: 100vw 100vh;
 }
+
 section{
-    width: 100vw;
-    height: 30vh;
+    display: flex;
     background-color: white;
-    flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-flow: wrap row;
     align-items: center;
 }
 div{
@@ -41,4 +45,9 @@ a{
     display: inline-block;
     padding: 5px 10px 5px 10px;
     margin-top: 15px;
+}
+
+footer{
+    background-color: red;
+    padding: 5px;
 }
