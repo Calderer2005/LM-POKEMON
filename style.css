@@ -4,24 +4,25 @@
     box-sizing: border-box;
 }
 header{
-    background-color: red;
+    background-color: rgb(168, 27, 27);
     padding: 5px;
+    display: flex;
+    flex-flow: wrap row;
 }
 nav{
-    display: flex;
-    justify-content: end;
+    align-self: flex-end;
 }
 .contenedor-imagen{
-    background-color: red;
+    background-color: rgb(168, 27, 27);
     display:flex;
-    border: 0px solid red;
+    border: 0px solid rgb(168, 27, 27);
 }
 img{
-    max-width: 100%;
+    max-width: 60%;
 }
 .fondo{
     background-image:url(img/fondu.jpg);
-    background-size: 100vw 100vh;
+    background-size: 100vh 100vw;
 }
 
 section{
@@ -46,8 +47,25 @@ a{
     padding: 5px 10px 5px 10px;
     margin-top: 15px;
 }
-
+#comprar{
+    border: 2px solid azure;
+    color: azure;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    margin-top: 15px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
 footer{
-    background-color: red;
+    background-color: rgb(168, 27, 27);
     padding: 5px;
+}
+
+p{
+    text-align: center;
+    color: azure;
+    text-shadow: 1px 1px 1px black;
 }
