@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: rgb(197, 5, 5);
+    padding: 10px 0;
+}
+nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+}
+nav ul{
+    width: 35%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+.boton{
+    padding: 10px 15px;
+    border: 2px solid white;
+}
+

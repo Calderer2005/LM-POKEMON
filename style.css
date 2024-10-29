@@ -3,22 +3,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+img{
+    max-width: 100%;
+}
 header{
-    background-color: rgb(168, 27, 27);
-    padding: 5px;
-    display: flex;
-    flex-flow: wrap row;
+    background-color: rgb(197, 5, 5);
 }
 nav{
-    align-self: flex-end;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
 }
-.contenedor-imagen{
-    background-color: rgb(168, 27, 27);
-    display:flex;
-    border: 0px solid rgb(168, 27, 27);
+.logo{
+    width: 20%;
 }
-img{
-    max-width: 60%;
+nav ul{
+    width: 40%;
 }
 .fondo{
     background-image:url(img/fondu.jpg);
