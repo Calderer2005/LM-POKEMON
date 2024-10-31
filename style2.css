@@ -35,3 +35,29 @@ nav ul a{
     padding: 10px 15px;
     border: 2px solid white;
 }
+#fondo{
+    height: 100vh;
+    background-image: url(./img/fondu.jpg);
+    background-size: cover;
+}
+#articles{
+    display:flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    
+    
+    
+}
+section div article{
+    display: flex;
+    flex-flow: wrap column ;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 5% 3% 5% 3% ;
+    margin: 3%;
+}
+footer{
+    background-color: rgb(197, 5, 5);
+    padding: 10px 0;
+}

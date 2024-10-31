@@ -22,9 +22,10 @@ nav{
 nav ul{
     width: 40%;
 }
-.fondo{
-    background-image:url(img/fondu.jpg);
-    background-size: 100vh 100vw;
+#fondo{
+    height: 100vh;
+    background-image:url(./img/fondu.jpg);
+    background-size: cover;
 }
 
 section{
@@ -59,7 +60,8 @@ a{
 }
 h2{
     display: flex;
-    justify-content: center;
+    align-items: flex-start;
+    
 }
 footer{
     background-color: rgb(168, 27, 27);
