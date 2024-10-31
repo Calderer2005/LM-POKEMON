@@ -44,10 +44,17 @@ nav ul a{
     display:flex;
     flex-flow: wrap row;
     justify-content: space-around;
-    
-    
-    
+
 }
+#section{
+    display: flex;
+    align-items: center;
+    flex-flow: wrap column;
+}
+section div{
+    text-align: center;
+}
+
 section div article{
     display: flex;
     flex-flow: wrap column ;
@@ -60,4 +67,8 @@ section div article{
 footer{
     background-color: rgb(197, 5, 5);
     padding: 10px 0;
+}
+footer div{
+    width: 80%;
+    margin: 0 auto; 
 }
