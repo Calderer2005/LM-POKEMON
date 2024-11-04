@@ -34,22 +34,43 @@ nav ul a{
 .boton{
     padding: 10px 15px;
     border: 2px solid white;
+
 }
 #fondo{
     height: 100vh;
     background-image: url(./img/fondu.jpg);
     background-size: cover;
+    
+}
+h1{
+    font-size: 100px;
+}
+section div a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+#pokedex{
+    margin: 15px 0 0 0;
+}
+#primera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 15px;
 }
 #articles{
     display:flex;
     flex-flow: wrap row;
     justify-content: space-between;
-
-}
-#section{
-    display: flex;
-    align-items: center;
-    flex-flow: wrap column;
+    width: 80%;
+    margin: 0 auto
 }
 
 section div article{
@@ -58,8 +79,29 @@ section div article{
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-    padding: 5% 3% 5% 3% ;
-    margin: 3% 0 3% 0;
+    padding: 0% 9% 0 9%;
+    margin: 3% 0% 3% 0%;
+}
+section div article div{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 45%;
+}
+.planta{
+    background-color: green;
+    padding: ;
+}
+.fuego{
+    background-color: orange;
+}
+.veneno{
+    background-color: purple;
+}
+#volador{
+    background-color: aqua;
 }
 footer{
     background-color: rgb(197, 5, 5);
