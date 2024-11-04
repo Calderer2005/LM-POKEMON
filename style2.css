@@ -7,7 +7,7 @@ img{
     max-width: 100%;
 }
 header{
-    background-color: rgb(197, 5, 5);
+    background-color: rgb(177, 0, 0);
     padding: 10px 0;
 }
 nav{
@@ -35,6 +35,10 @@ nav ul a{
     padding: 10px 15px;
     border: 2px solid white;
 
+}
+main section div{
+    width: 80%;
+    margin: 0 auto;
 }
 #fondo{
     height: 100vh;
@@ -72,7 +76,6 @@ section div a{
     width: 80%;
     margin: 0 auto
 }
-
 section div article{
     display: flex;
     flex-flow: wrap column ;
@@ -82,36 +85,69 @@ section div article{
     padding: 0% 9% 0 9%;
     margin: 3% 0% 3% 0%;
 }
+section div article a{
+    color: black;
+    padding: 10px 15px;
+    border: 2px solid black;
+}
 section div article div{
     display: flex;
     flex-flow: wrap row;
     justify-content: space-around;
     align-items: center;
     color: white;
-    width: 45%;
+    width: 50%;
 }
 .planta{
     background-color: green;
-    padding: ;
+    padding: 2%;
 }
 .fuego{
     background-color: orange;
+    padding: 2%;
 }
 .veneno{
     background-color: purple;
+    padding: 2%;
 }
 #volador{
     background-color: aqua;
+    padding: 2%;
+}
+#siguiente{
+    color: black;
+    text-decoration: underline;
 }
 footer{
-    background-color: rgb(197, 5, 5);
-    padding: 10px 0;
+    background-color: rgb(177, 0, 0);
+    padding: 40px;
+    margin: 24px;
 }
-main section div{
-    width: 80%;
-    margin: 0 auto;
+.foot{
+    margin: 0 65px
 }
-footer div{
-    width: 80%;
-    margin: 0 auto; 
+.foot h3{
+    margin-bottom: 6px;
+}
+.inp{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 14px;
+}
+
+.foot>.inp input:nth-child(1) {
+    width: 40%;
+}
+.foot>.inp input:nth-child(2) {
+    width: 40%;
+}
+.foot>.inp input:nth-child(3) {
+    width: 10%;
+}
+.foot hr{
+    margin-bottom: 20px;
+}
+.foot a{
+    color: black;
+    text-decoration: none;
 }
