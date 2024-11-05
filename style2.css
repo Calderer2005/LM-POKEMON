@@ -121,7 +121,7 @@ section div article div{
 footer{
     background-color: rgb(177, 0, 0);
     padding: 40px;
-    margin: 24px;
+    margin: 0 auto;
 }
 .foot{
     margin: 0 65px
